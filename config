@@ -1,0 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class testscript : MonoBehaviour
+{
+    private Text text;
+
+    private void Start()
+    {
+        text = GameObject.Find("count").GetComponent<Text>();
+        text.text = "test";
+    }
+}
